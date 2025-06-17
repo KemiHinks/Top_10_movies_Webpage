@@ -1,8 +1,16 @@
-TOP 10 MOVIES WEBPAGE USING FLASK, WTForms, SQLite, SQLAchemy, REST API's
+# TOP 10 MOVIES WEBPAGE 
 
-1) Created and SQLite database with SQLAchemy. This should feature a movie table with my own chosen fields.
-2) Looped through each entry and displayed it on the website homepage
-3) Used WTForms to enable editing the movies displayed on the homepage and updated my database with these changes
-4) Added an option that allows the user to add a movie
-5) Using API's from https://www.themoviedb.org/?language=en-GB, i searched for matches between the movie title added by the user and movie titles on their database and returned all matches   to my webpages as clickeable options for the user
-6) I used the API to also grab the movies image, year and description which is saved and generated one the movie is added.
+<hr style="border: 1px solid black;">
+
+# **Introduction**
+
+When asked about your favorite movies, it's easy to draw a blank and forget a few classics you love. This project involves creating a webpage where you can rate and review the movies you've watched, helping you curate your very own Top 10 list.
+
+# **Objectives:**  
+1) Create an SQLite database with SQLAchemy. This should feature a movie table with my own chosen fields.
+2) Loop through each entry and displayed it on the website homepage.
+3) Use WTForms to enable input and editing of movies and ratings displayed on the homepage.
+5) Add an option that allows the user to add a movie.
+6) Using APIs from The Movie Database (TMDb), the webpage searches for matches based on the user's movie title input and displays all relevant results as clickable options.
+7) Use the API to  grab the movies thumbnail image, year and description which is saved and generated once the movie is added.  
+8) The Top 10 list should automatically adjust to reflect changes in user-submitted ratings.
